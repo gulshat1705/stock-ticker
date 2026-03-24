@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+  font-size: 22px;
+}
+.container {
+  max-width: 720px;
+  height: 100vh;
+  margin: 0 auto;
+  background: #f4f4f4;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.stockdata {
+  width: 420px;
+  background: #fff;
+  padding: 30px;
+  border-radius: 15px;
+  border: 1px solid #008080;
+  color: #008080;
+  box-shadow: 5px 5px 10px #ccc;
+}
+p {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  font-weight: 600;
+}
+p span {
+  font-weight: 300;
+}
